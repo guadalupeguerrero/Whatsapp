@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<title>Whatsapp </title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	  	<link rel="stylesheet" href="css/main.css">
+	  	<link rel="stylesheet" href="css/queries.css">
+	  	<link rel="stylesheet" href="css/font-awesome.css">
+	  	<link rel="stylesheet" href="css/icomoon.css">
+
+
+	</head>
+	<header>
+		<!-- Aquí debería ir el header, probar poner el color verde en otro método -->
+	</header>
+	<body class="bg-gray-body">
+		<section>
+			<div class="container-fluid bg-gray-container"></div>
+				<div class="container sobrepuesto">
+					<div class="row">
+						<div class="col-lg-5 p-0">
+							<nav class="menu gray-header-whats">
+								<ul class="UlMenu1">
+									<li  class="inline-block"><a href=""><img src="image/gian.jpg" class="img-perfil"></li></a>
+									<li  class="inline-block ml-2 rigth"><a href="" class="icon-dots-three-vertical"></a></li>
+									<li  class="inline-block ml-2 rigth"><a href="" class="icon-message "></a></li>
+								</ul>
+							</nav>
+
+						<div class="LargoCaja">
+							<div class="fix-caja">
+								<div class=" pl-40">
+    								<i class=" fa fa-search"></i>
+    								<input type="text" class=" form-control" id="search" placeholder="Buscar o empezar un chat nuevo" onkeyup="doSearch()"/>
+								</div>
+							</div>
+							<div class="w-100"> 
+								<div class="contacto">
+								
+
+								<!--Anexar tabla de búsqueda si no quitar-->
+									<table id="datos">
+										<tr class="contenedor-contactos btn-default" data="0">
+											<td class="contenedor-comentarios w-15"><a href="#Peru"><img src="image/logocodeacademy.png" class="contactos"></a></td>
+											<td class="col-xs-5 contenedor-comentarios w-70">
+											<h5><b>Labotoria Perú<b></h5>
+											<h6>Aldo: Dale dale!</h6>
+											</td>
+											<td class="contenedor-comentarios w-10"><h6>14:25</h6>
+											</td>
+										</tr>
+								
+										<tr class="contenedor-contactos btn-default" data="2">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/raymi.jpg" class=" contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70">
+											<h5><b>Raymi Saldomando<b></h5>
+											<h6>La clase va bien!</h6>
+											</td>
+											<td class=" contenedor-comentarios w-10"><h6>11:25</h6></td>
+										</tr>		
+										<tr class="contenedor-contactos btn-default" data="3">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/mariana.jpg" class=" contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70 ">
+											<h5><b>Miriana Costa<b></h5>
+											<h6>El panel de speakers está buenazo</h6>
+											</td>
+											<td class="contenedor-comentarios w-10"><h6>09:25</h6></td>
+										</tr>
+										<tr class="contenedor-contactos btn-default" data="4">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/anamaria.jpg" class="contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70">
+											<h5><b>Ana María Martínez Franklin<b></h5>
+											<h6>Pues dale chamo!!</h6>
+											</td>
+											<td class="contenedor-comentarios w-10"><h6>Ayer</h6></td>
+										</tr>
+										<tr class="contenedor-contactos btn-default" data="5">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/rodulfo.jpg"  class="contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70 ">
+											<h5><b>Rodulfo Prieto<b></h5>
+											<h6>¿Cómo van las chicas?</h6>
+											</td>
+											<td class="contenedor-comentarios w-10 "><h6>Martes</h6></td>
+										</tr>
+										<tr class="contenedor-contactos btn-default" data="6">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/andrea.jpg" class="contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70">
+											<h5><b>Andrea Lamas<b></h5>
+											<h6>hoy me toca clases de canto, Yee!</h6>
+											</td>
+											<td class="contenedor-comentarios w-10"><h6>Lunes</h6></td>
+										</tr>
+										<tr class="contenedor-contactos btn-default" data="7">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/mariapaula.jpg" class="contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70 ">
+											<h5><b>Maria Paula Rivera<b></h5>
+											<h6>Lunes</h6>
+											</td>
+											<td class="contenedor-comentarios w-10"><h6>14:25</h6></td>
+										</tr>
+										<tr class="contenedor-contactos btn-default" data="8">
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/katy.jpg" class="contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70  ">
+											<h5><b>Katy Sanchez<b></h5>
+											<h6>No te Preocupes, tengo el salón bajo control</h6>
+											</td>
+											<td class="contenedor-comentarios w-10 "><h6>13/01/16</h6></td>
+										</tr>
+										<tr class="contenedor-contactos btn-default" data="9">		
+											<td class="col-xs-2 contenedor-comentarios w-15"><img src="image/aldo.jpg"  class="contactos"></td>
+											<td class="col-xs-5 contenedor-comentarios w-70">
+											<h5><b>Aldo Alfaro<b></h5>
+											<h6>Van a comer?</h6>
+											</td>
+											<td class="contenedor-comentarios w-10"><h6>03/01/165</h6></td>
+										</tr>
+									</table>			
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Info chat derecho -->
+					<div class="col-md-7 p-0">
+						<div class="chat gray-header-whats">
+							<div class="col-xs-2 col-md-2 contenedor-comentarios w-15">
+								<a name="Peru"><img src="image/logocodeacademy.png"  class="contactos"></a>
+							</div>
+							<div class="col-xs-7 contenedor-comentarios w-70  gray-header-whats">
+								<h5><b>Labotoria Perú<b></h5>
+								<h6>Griss, Less, Eli, AnaLy, Yo...</h6>
+							</div>
+							<div class="contenedor-comentarios">
+								<a href=""><p class="icon-dots-three-vertical rigth"></p></a>
+								<a href=""><p class="icon-attachment rigth"></p></a>
+							</div>
+						</div>
+
+						<!--   Box Chat -->
+						<div class="box-chat ">
+							<div class="contacto" id="messages">
+									<div class="conversacion">
+										
+									</div>
+								</div>
+								<div class="fix-caja">
+								<div class="input-group">
+			                        <img src="image/1.png" alt="" width="40" height="40" class="emo" id="e1">
+			                        <img src="image/2.png" alt="" width="40" height="40" class="emo" id="e2">
+			                        <img src="image/3.png" alt="" width="40" height="40" class="emo" id="e3">
+			                        <img src="image/4.png" alt="" width="40" height="40" class="emo" id="e4">
+			                        <img src="image/5.png" alt="" width="40" height="40" class="emo" id="e5">
+			                        <img src="image/6.png" alt="" width="40" height="40" class="emo" id="e6">
+			                        <img src="image/7.png" alt="" width="40" height="40" class="emo" id="e7"> 
+			                        <img src="image/8.png" alt="" width="40" height="40" class="emo" id="e8">
+			                        <img src="image/9.png" alt="" width="40" height="40" class="emo" id="e9">
+			                        <img src="image/10.png" alt="" width="40" height="40" class="emo" id="e10">
+			                        <img src="image/11.png" alt="" width="40" height="40" class="emo" id="e11">
+			                        <img src="image/12.png" alt="" width="40" height="40" class="emo" id="e12">
+                    			</div>
+									<div class="fa fa-smile-o"></div>
+									<input type="search" class="form-control w-85 inline-block" id="Mensaje" placeholder="Escribir mensaje">
+									<a href="" id="add" class="btn btn-primary">Enviar</a> 
+									<div class="icon-mic inline-block"></div>
+								
+								</div>
+
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Sccript js -->
+	<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
